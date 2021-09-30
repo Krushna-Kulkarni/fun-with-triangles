@@ -10,10 +10,10 @@ function calculateSumOfSquare(side1, side2) {
 
 function calculateHypotenuse() {
     if(Number(sideInput[0].value) === "" || Number(sideInput[1].value === "")) {
-        outputDiv.innerText = "please enter the sides to calculate hypotenuse!"
+        outputDiv.innerText = "Please enter the sides to calculate hypotenuse!"
     }
     else if(Number(sideInput[0].value) < 0 || Number(sideInput[1].value < 0)) {
-        outputDiv.innerText = "please enter the valid input!";
+        outputDiv.innerText = "Please enter the valid input!";
     } else {
         const sumOfSquares = calculateSumOfSquare(Number(sideInput[0].value), Number(sideInput[1].value));
         const lengthOfHypotenuse = Math.sqrt(sumOfSquares);

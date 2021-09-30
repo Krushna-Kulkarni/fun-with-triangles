@@ -20,7 +20,7 @@ function calculateScore() {
         outputDiv.innerText = "Your score is " + score;
     }
     else {
-        outputDiv.innerText = "please select all answers"
+        outputDiv.innerText = "Please select all answers"
     }
 }
 

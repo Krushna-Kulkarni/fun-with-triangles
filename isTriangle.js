@@ -17,7 +17,7 @@ function isTriangle() {
             }
     }
     else {
-        outputDiv.innerText = "plz enter valid input";
+        outputDiv.innerText = "Please enter valid input";
         }
 }
 
